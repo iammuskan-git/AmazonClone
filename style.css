@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* Box 1 */
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url("./amazon_logo.png");
+    height: 50px;
+    width: 113px;
+    background-size: cover;
+}
+
+/* Yo pura navbar ma border banxa */
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1.9px solid white;
+    box-shadow: 0 0 0.5rem #ffff;
+}
+
+
+
+
+/**   Box 2   **/
+
+.nav-address {
+    height: 50px;
+    width: 100px;
+    /* margin-left: .5rem;
+    padding-left: 0.5rem; */
+}
+
+.nav-first-address {
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+}
+
+.nav-address-icon {
+    color: white;
+    display: flex;
+}
+
+.fa-solid {
+    margin-top: .1rem;
+}
+
+.nav-second-address {
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+    margin-top: .1rem;
+}
+
+
+
+/* Box 3 */
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 701px;
+    border-radius: 4px;
+}
+
+.nav-select {
+    height: 50px;
+    width: 69px;
+    background-color: #cccc;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.nav-input {
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 1.1rem ;
+    padding: .3rem;
+
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 45px;
+    height: 50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.fa-solid {
+    color: #ffff;
+    font-size: 1.3rem;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+    box-shadow: 0 0 20px orange;
+}
+
+
+
+
+
+/* Box 4,5,6 */
+.first-nav {
+    color: #ffff;
+    font-size: 14px;
+}
+
+.second-nav {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+/* Box 7  */
+.nav-cart  {
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: .7rem;
+}
+
+/* Nav-Menu */
+.nav-icon-menu {
+    display: none;
+}
+
+/* **********             pannel                           *********** */
+.pannel {
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pannel-all {
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pannel-ops {
+    width: 70%;
+    color: #ffff;
+}
+
+.pannel-ops p  {
+    display: inline;
+    margin-left: 18px;
+    font-size: 1rem;
+}
+
+.pannel-deals {
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* ****************************** Hero Section ************************************* */
+.hero-section {
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-msg {
+    height: 40px;
+    width: 90%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+
+
+
+
+
+
+
+
+/* *****              shop-section                 ***** */
+.shop-section {
+
+    /***************************************************************    ye ma height dinu pardaina child ko height anusar thulo hudai janxa ****************************************************************************************************************/
+
+    background-color: #e2e7e6;
+    display: flex; 
+    /* yo khyal garni hai */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: #ffff;
+    /* mathi , left/right , tala */
+    padding: 20px 0 15px;
+    margin-top: 15px;
+}
+
+.shop-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.shop-content p a {
+    color: #007185;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+ 
+/***********    footer    ************/
+footer {
+    margin-top: 15px;
+}
+
+
+.foot-pannel1 {
+    height: 50px;
+    background-color: #37475a;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-pannel2 {
+    height: 300px;
+    background-color: #222f3d;
+    color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul p {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+ul a {
+
+    /* yo khyal garni <a> tag lai block garako different line ma leuna ko lagi */
+    display: block;
+    text-decoration: none;
+    color: #dddd;
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
+
+.foot-pannel3 {
+    background-color: #222f3d;
+    border-top: 0.1rem solid #ffff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-pannel4 {
+    height: 70px;
+    background-color: #0F1111;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pages {
+    margin-top: 30px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.copyright {
+    margin-bottom: 30px;
+    font-size: .90rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1029px) {
+     .nav-address , .nav-signin , .nav-returns   {
+        display: none;
+    }
+
+    
+}
+
+
+@media (max-width: 885px) {
+    
+    .hero-section {
+        height: 280px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************   Media Queries **************************** */
+@media (max-width:600px) {
+
+    /* 1) */
+    .navbar {
+        height: 51px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-address , .nav-search , .nav-signin , .nav-returns , .nav-cart {
+        display: none;
+    }
+    
+    .nav-icon-menu {
+        display: block;
+        margin-right: 17px;
+        font-weight: 900;
+    }
+
+    /* 2) */
+    .pannel {
+        height: 40px;
+    }
+
+    .pannel-all {
+        font-size: .01rem;
+    }
+
+    .pannel-ops p {
+        font-size: .7rem;
+    }
+
+    .pannel-deals {
+        font-size: .7rem;
+    }
+
+    /* 3) */
+    
+    .hero-section {
+        height: 205px;
+    }
+
+    /* 4) */
+    .shop-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        height: 350px;
+        width: 80%;
+        padding-bottom: 0px;
+    }
+
+    .box-img {
+        height: 250px;
+    }
+
+    /* 5) */
+    .foot-pannel1 {
+        height: 30px;
+        font-size: .7rem;
+    }
+
+    /* 6) */
+    .foot-pannel2 {
+        height: 200px;
+    }
+
+    .foot-pannel2 ul  p {
+        font-size: .6rem;
+    }
+
+    .foot-pannel2 ul  a {
+        font-size: .5rem;
+        
+    }
+
+
+
+    /* 7) */
+    .foot-pannel3 {
+        height: 40px;
+    }
+
+    
+
+
+    /* 8) */
+    .foot-pannel4 {
+        height: 50px;
+        gap: 5px;
+    }
+
+    .foot-pannel4 a {
+        font-size: .9rem;
+    }
+
+    .foot-pannel4 .copyright {
+        font-size: .8rem;
+    }
+
+
+
+}
+
+@media (max-width: 566px) {
+
+    .pannel {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .pannel .pannel-ops {
+        display: none;
+    }
+
+    .hero-section {
+        height: 250px;
+    }
+
+    .hero-msg {
+        width: 75%;
+        height: 30px;
+    }
+
+    .hero-msg p {
+        font-size: .4rem;
+    }
+
+    .box {
+        height: 250px;
+        width: 80%;
+        padding-bottom: 0px;
+    }
+
+    .box-img {
+        height: 150px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    .hero-section {
+        height: 200px;
+
+    }
+    
+}
+
+
+@media (max-width: 300px) {
+
+    .hero-section {
+        height: 150px;
+
+    }
+    
+}
